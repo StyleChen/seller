@@ -1,0 +1,23 @@
+.countModal {
+    box-shadow: 0 1px 0 0 #d9d9d9;
+}
+.countModal .ant-col-8 {
+    padding: 20px 0;
+}
+.countModal .titleIcon {
+    margin-right: 5px;
+}
+.countModal p,
+.countModal h4 {
+    margin: 0;
+}
+.countModal h4 {
+    height: 50px;
+    line-height: 50px;
+}
+.gradientLine {
+    float: right;
+    height: 100%;
+    width: 1px;
+    background-image: linear-gradient(to top, #f67334 25%, #f67334 75%);
+}

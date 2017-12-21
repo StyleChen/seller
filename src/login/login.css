@@ -1,0 +1,97 @@
+.anticon-close-circle {
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+    font-size: 12px;
+}
+.anticon-close-circle:hover {
+    color: #999;
+}
+.anticon-close-circle:active {
+    color: #666;
+}
+
+.loginContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.loginContainer:before{
+    display: block;
+    content: '';
+    border: 1px solid #f0f0f0;
+}
+.login {
+    width: 86.7%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    margin: 45px auto;
+    overflow: hidden;
+}
+.login .ant-tabs-nav {
+    display: block;
+}
+.login .ant-tabs-bar {
+    border: none;
+}
+.login .ant-tabs-nav .ant-tabs-tab {
+    width: 50%;
+    margin: 0;
+    background: #eeeeee;
+    text-align: center;
+}
+.login .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    background: #FFFFFF;
+    color: #eb5e1b;
+}
+.login .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    margin-right: 0;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    line-height: 45px;
+}
+.login .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container{
+    height: 45px;
+}
+.inputContainer{
+    padding: 0 6.3%;
+    margin-top: 32px;
+}
+.loginInput input {
+    border:none;
+    border-bottom: 1px solid #dddddd;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    outline: none;
+}
+.loginInput.code input {
+    border-bottom: none;
+}
+.loginContainer .ant-btn-primary {
+    width: 86.7%;
+    margin: 45px auto 35px;
+}
+.login .ant-input {
+    height: 40px;
+}
+.getCode {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    margin-top: 10px;
+    line-height: 14px;
+    border: none;
+    background: #FFFFFF;
+    color: #eb5e1b;
+    border-left: 1px solid #dddddd;
+    outline: none;
+}
+.getCode[disabled] {
+    color: #ddd;
+}

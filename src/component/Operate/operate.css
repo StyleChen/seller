@@ -1,0 +1,26 @@
+.navTab {
+    border-bottom: 1px solid #dddddd;
+    background: #FFFFFF;
+}
+.navTab .iconfont {
+    font-size: 24px;
+}
+.navTab dl {
+    text-align: center;
+}
+.icon-shangpinguanli,
+.icon-liuliang {
+    color: #1ea78b;
+}
+.icon-yonghupingjia,
+.icon-diaoyong,
+.icon-statistics {
+    color: #1d8fe1;
+}
+.icon-duizhang,
+.icon-icon {
+    color: #f28f14;
+}
+.icon-fenxi {
+    color: #f15848
+}

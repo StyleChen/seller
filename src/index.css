@@ -1,0 +1,48 @@
+@import '~antd/dist/antd.css';
+@import "static/font/iconfont.css";
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  max-width: 768px;
+  width: 100%;
+  font-size: 14px;
+  background: #f0f0f0;
+  min-height: 100vh;
+  font-family:  '新宋体', 'microsoft yahei';
+}
+.title {
+  height: 40px;
+  background-color: #eb5e1b;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.ant-btn-primary {
+  display: block;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #eb5e1b;
+  border-color: #eb5e1b;
+}
+.ant-input-affix-wrapper {
+  font-size: 18px;
+}
+.ant-input-affix-wrapper .ant-input-prefix {
+  left: 0;
+}
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+  border-color: #eb5e1b;
+}
+.leftTip {
+  display: inline-block;
+  width: 4px;
+  height: 1rem;
+  background: #eb5e1b;
+  margin: 1rem 5px 0 0.7rem;
+  vertical-align: text-bottom;
+}
